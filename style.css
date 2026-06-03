@@ -1,0 +1,134 @@
+:root {
+    --bg-dark: #0d0f12;       /* Preto tecnológico */
+    --bg-card: #161a22;       /* Cinza escuro/Preto */
+    --text-light: #ffffff;     /* Branco */
+    --primary-blue: #0055ff;  /* Azul */
+    --accent-cyan: #00d2ff;   /* Azul celeste */
+    --metallic: #4682b4;      /* Azul metálico */
+    --agro-green: #00ff66;    /* Verde */
+    --agro-gold: #ffd700;     /* Ouro/Amarelo */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Estilo Cyber-Agro */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid var(--primary-blue);
+    background: rgba(22, 26, 34, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-light);
+}
+
+.logo span {
+    color: var(--agro-green);
+}
+
+.nav-menu a {
+    color: var(--accent-cyan);
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: var(--agro-gold);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    border: 1px solid rgba(0, 210, 255, 0.2);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #161a22 0%, #0d0f12 100%);
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    color: var(--accent-cyan);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: var(--agro-gold);
+    font-style: italic;
+}
+
+/* Grid Interativo */
+.grid-beneficios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card-btn {
+    background-color: var(--bg-card);
+    color: var(--text-light);
+    border: 1px solid var(--metallic);
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+    border-color: var(--agro-green);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+}
+
+/* Painel Informativo */
+.panel {
+    margin-top: 30px;
+    padding: 20px;
+    background: var(--bg-card);
+    border-left: 4px solid var(--agro-green);
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
