@@ -1,2 +1,3 @@
 # agrinho2026
 Projeto desemvolvido para o agrinho 2026
+Cenário 1: Você se refere a uma biblioteca ou framework específico de desenvolvimento? (Por exemplo, o banco de dados mobile Realm ou algum SDK específico para dispositivos Realme?).Cenário 2: Você precisa de uma estrutura de pastas organizada no seu projeto para salvar esses arquivos?Se for o Cenário 2 (organização de pastas), você pode criar a estrutura no seu computador criando uma pasta raiz com o nome que desejar (ex: projeto-agrotech) e salvar os três arquivos (index.html, style.css, script.js) juntos dentro dela.Me informe qual é o seu objetivo com a pasta REALME ou se você gostaria de adicionar algum recurso ou integração com essa marca no código anterior!
